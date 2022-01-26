@@ -1,0 +1,48 @@
+.main-nav {
+    padding-left: 24px;
+    min-height: 70px;
+  }
+  
+  .nav-logo-text {
+    color: #00285F;
+    text-decoration: none;
+  }
+
+  .nav-logo-text h4 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .nav-logo-text:hover {
+    color: #fff;
+  }
+
+  .navbar-dark .navbar-toggler {
+    color: black;
+    border: none;
+  }
+  
+  .main-menu {
+    display: flex;
+    font-size: 18px;
+    margin-left: auto;
+  }
+
+  .main-menu li {
+    padding: 0 20px 0 50px;
+  }
+  
+  .main-menu a {
+    font-style: normal;
+    text-decoration: none;
+    color: #00285F;
+  }
+  
+  .main-menu a.active {
+    font-weight: 700;
+  }
+  
+  .main-menu a:hover {
+    color: #fff;
+  }
+  
