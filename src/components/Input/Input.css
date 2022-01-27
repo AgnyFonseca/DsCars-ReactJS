@@ -1,0 +1,21 @@
+.input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container input {
+    border-radius: 5px 0 0 5px;
+    width: 199px;
+    height: 40px;
+    border: none;
+    padding: 6px;
+}
+
+.input-container input::placeholder {
+    color: #A7A7A7;
+}
+
+.input-container button {
+    width: 77px;
+    border-radius: 0 5px 5px 0;
+}
