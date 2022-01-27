@@ -17,21 +17,30 @@
     color: #fff;
   }
 
-  .navbar-dark .navbar-toggler {
-    color: black;
+  .navbar-toggler {
+    width: 50px;
+    font-size: 1.5rem;
     border: none;
   }
-  
+
+ .navbar-dark .navbar-toggler span {
+    padding: 2px;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 40, 95, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
   .main-menu {
     display: flex;
     font-size: 18px;
     margin-left: auto;
   }
 
-  .main-menu li {
-    padding: 0 20px 0 50px;
-  }
-  
   .main-menu a {
     font-style: normal;
     text-decoration: none;
@@ -45,4 +54,26 @@
   .main-menu a:hover {
     color: #fff;
   }
+
+  /* MD */
+  @media (min-width: 768px) {
+    .main-menu > li:first-child {
+      padding-right: 48px;
+    } 
+
+    .main-menu li {
+      padding-right: 20px;
+    } 
+  }
+
+  /* XL */
+@media (min-width: 1200px) {
+  .main-nav {
+    padding-left: 150px;
+  }
+
+  .main-menu li {
+    padding-right: 150px;
+  }
+}
   

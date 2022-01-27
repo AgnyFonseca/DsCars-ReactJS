@@ -1,0 +1,10 @@
+button {
+    width: 174px;
+    height: 40px;
+}
+
+.btn h6 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0;
+}
